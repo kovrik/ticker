@@ -10,7 +10,7 @@ See javadocs.
 
 
 Example:
-<code>
+```java
 Ticker ticker = new Ticker();
 try {
     Thread.sleep(10000);
@@ -19,4 +19,4 @@ try {
     Thread.currentThread().interrupt();
 }
 System.out.println(ticker.tick(TimeUnit.SECONDS)); // 10
-</code>
+```
